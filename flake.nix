@@ -354,7 +354,7 @@
           rec {
             packages =
               {
-                inherit idris2-raylib-bindings libidris2-raylib-ext idris2-raylib-ext-bindings;
+                inherit idris2-raylib idris2-raylib-bindings libidris2-raylib-ext idris2-raylib-ext-bindings;
               };
             devShells.idris2-raylib = pkgs.mkShell {
               buildInputs = [
