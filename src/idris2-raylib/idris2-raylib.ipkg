@@ -1,0 +1,11 @@
+package idris2-raylib
+
+authors    = "xavierzwirtz"
+version    = 0.1.0
+sourcedir  = "src"
+depends    = contrib
+           , base         >= 0.4.0
+           , idris2-raylib-bindings >= 0.1.0
+           , idris2-raylib-ext-bindings >= 0.1.0
+
+modules = Raylib
